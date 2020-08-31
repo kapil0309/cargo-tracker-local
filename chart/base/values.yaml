@@ -47,6 +47,6 @@ vcsInfo:
 
 partOf: "cargotracker-frontend-dev"
 
-connectsTo: "cargotracker-org-bff"
+connectsTo: "cargotracker-liberty-bff"
 
 runtime: js
