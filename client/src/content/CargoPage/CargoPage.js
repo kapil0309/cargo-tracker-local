@@ -60,6 +60,7 @@ const getRowItems = rows =>
   }));
 
 const CargoPage = () => {
+  
   const [totalItems, setTotalItems] = useState(0);
   const [firstRowIndex, setFirstRowIndex] = useState(0);
   const [currentPageSize, setCurrentPageSize] = useState(10);
@@ -118,6 +119,8 @@ const CargoPage = () => {
       </div>
     </div>
   );
+          
 };
+
 
 export default CargoPage;

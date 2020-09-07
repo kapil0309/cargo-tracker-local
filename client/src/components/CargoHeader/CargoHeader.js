@@ -18,7 +18,13 @@ const CargoHeader = () => (
       <HeaderMenuItem element={Link} to="/cargoitems">
         Cargo Items
       </HeaderMenuItem>
+      <HeaderMenuItem element={Link} to="/cargobooking">
+      Cargo Booking
+      </HeaderMenuItem>
     </HeaderNavigation>
+    
+        
+      
   </Header>
 );
 
