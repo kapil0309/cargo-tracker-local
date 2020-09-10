@@ -1,0 +1,31 @@
+
+label { 
+  
+  display: inline-block;
+  width: 400px;
+  text-align: left;
+  margin-bottom: 10px;
+  padding-inline: 10px;
+  
+  
+} 
+
+input.x { 
+  display: inline-block;
+  text-align: left;
+  margin-left: 30px;
+  height: 20px;
+  
+} 
+
+label.required:after{
+  content: " *";
+  color: red
+}
+
+
+
+h2 {
+  text-align: center;
+  
+}

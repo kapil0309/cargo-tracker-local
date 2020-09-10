@@ -1,5 +1,7 @@
 //import fetch from 'isomorphic-fetch';
 import axios from "axios";
+
+
  
 
 export function fetchBookings(data) {
@@ -9,10 +11,19 @@ export function fetchBookings(data) {
 
   axios
   .post("/cargobooking", data)
-  .then(res => 
-  console.log(res))
+  .then(res => {
+
+    console.log(res)
+    
+    localStorage.setItem('bookingId', res.data.bookingId)
+  }
+  
+  )
   .catch(err => console.log(err));
 
 }
 ///locAL storage
-
+//localStorage.setItem('bookingId', res.config.data.bookingId)
+/* const bookingId = localStorage.setItem(res.data.bookingId)
+console.log("bit is gthe booking id", bookingId)
+return bookingId */

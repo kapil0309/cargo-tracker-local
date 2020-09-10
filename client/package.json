@@ -2,7 +2,6 @@
   "name": "template-node-react",
   "version": "0.1.0",
   "private": true,
-  
   "dependencies": {
     "@babel/core": "7.1.0",
     "@carbon/grid": "^10.3.0",
@@ -17,6 +16,7 @@
     "babel-plugin-named-asset-import": "^0.2.3",
     "babel-preset-react-app": "^6.1.0",
     "bfj": "6.1.1",
+    "browser-history": "^1.0.1",
     "carbon-components": "^10.9.0",
     "carbon-components-react": "^7.3.0",
     "carbon-icons": "^7.0.7",
@@ -39,10 +39,12 @@
     "fs-extra": "7.0.0",
     "graphql": "^14.3.1",
     "html-webpack-plugin": "4.0.0-alpha.2",
+    "http-proxy-middleware": "^1.0.5",
     "identity-obj-proxy": "3.0.0",
     "jest": "23.6.0",
     "jest-pnp-resolver": "1.0.1",
     "jest-resolve": "23.6.0",
+    "local-storage": "^2.0.0",
     "mini-css-extract-plugin": "0.4.3",
     "node-sass": "^4.12.0",
     "optimize-css-assets-webpack-plugin": "5.0.1",
@@ -75,7 +77,6 @@
     "test:coverage": "CI=true node scripts/test.js --coverage",
     "tdd": "node scripts/test.js"
   },
-  "proxy": "https://cargo-booking-liberty-api-bluecargo-dev.appdev-cloudnative-ocp43-6fb0b86391cd68c8282858623a1dddff-0000.eu-gb.containers.appdomain.cloud/",
   "eslintConfig": {
     "extends": "react-app"
   },
