@@ -50,11 +50,8 @@ fetchHandling(data) {
         e.preventDefault();
         this.fetchHandling(this.state)
         alert("Handling is done successfully")
-       // this.props.onSubmit2(this.state);
         console.log("handling is done successfully", this.state)
-        
-       
-           }
+         }
 
            toInputUpperCase(e) {
             e.target.value = ("" + e.target.value).toUpperCase();
@@ -67,7 +64,7 @@ render() {
         return (
             <div style= {
                 {
-                    border: '40px solid black',
+                    border: '20px solid black',
                     backgroundColor: "#D3D3D3",
                     textAlign: "center"
                     

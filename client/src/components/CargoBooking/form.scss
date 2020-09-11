@@ -1,31 +1,88 @@
-
-label { 
+.required1 { 
   
   display: inline-block;
-  width: 400px;
+  width: 300px;
   text-align: left;
-  margin-bottom: 10px;
-  padding-inline: 10px;
-  
-  
-} 
+  margin-bottom: 20px;
+  padding-inline: 50px;
+  align-self: center;
+    
+    
+  } 
 
-input.x { 
+  .required0 {
   display: inline-block;
+  width: 270px;
+  align-self: center;
+  
   text-align: left;
-  margin-left: 30px;
-  height: 20px;
+  margin-bottom: 20px;
+  padding-inline: 50px;
+    
+  }
+
   
-} 
 
-label.required:after{
-  content: " *";
-  color: red
-}
-
-
-
-h2 {
-  text-align: center;
+  button {
+    padding-inline: 100px;
+    width: 6em;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+  }
   
-}
+  .required2 { 
+    display: inline-block;
+    text-align: left;
+    width: 300px;
+    height: 20px;
+  
+  } 
+
+  .required3 { 
+    display: inline-block;
+    text-align: left;
+    margin-left: 40px ;
+    
+    
+    height: 20px;
+  
+  } 
+  
+  label.required:after{
+    content: " *";
+    color: red
+  }
+
+
+  label.required0:after{
+    content: " *";
+    color: red
+  }
+
+  label.required2:after{
+    content: " *";
+    color: red
+  }
+
+  label.required3:after{
+    content: " *";
+    color: red;
+  }
+
+  label.required4:after{
+    content: " *";
+    color: red
+  }
+  
+  
+  
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    
+  }
+
+  
+  

@@ -22,10 +22,10 @@ class afterRouting extends React.Component {
                 }
              
              }>
-            <p>You can proceed for CargoHandling </p>
+            <h1>You can proceed for CargoHandling </h1>
 
             <Link to='/cargohandling'>
-            <button class="routing-button" type="button"> Cargo Handling </button>
+            <button class="routing-button" type="button">Cargo Handling</button>
             </Link>
 
         </div>

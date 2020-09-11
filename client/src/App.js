@@ -5,11 +5,14 @@ import CargoHeader from './components/CargoHeader';
 import { Route, Switch } from 'react-router-dom';
 import LandingPage from './content/LandingPage';
 import CargoPage from './content/CargoPage';
-import CargoBooking from './content/CargoBooking/CargoBooking.js';
+import CargoBooking from './components/CargoBooking/CargoBooking.js';
 import CargoRouting from './components/CargoRouting/CargoRouting';
 import routingLandingPage from './components/CargoRouting/routingLandingPage.js';
 import CargoHandling from './components/CargoHandling/CargoHandling.js';
 import afterRouting from './components/CargoRouting/afterRouting.js'
+
+
+
 
 
 class App extends Component {
@@ -26,6 +29,8 @@ class App extends Component {
             <Route path="/routingLandingPage" component={routingLandingPage} />
             <Route path="/cargohandling" component={CargoHandling} />
             <Route path="/afterRouting" component={afterRouting} />
+            
+            
           </Switch>
         </Content>
        

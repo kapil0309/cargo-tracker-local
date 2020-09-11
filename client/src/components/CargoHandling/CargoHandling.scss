@@ -4,7 +4,7 @@ label {
   width: 200px;
   text-align: left;
   margin-bottom: 10px;
-  padding-inline: 10px;
+  padding-inline: 40px;
   
   
 } 
@@ -13,7 +13,9 @@ input {
   display: inline-block;
   text-align: left;
   margin-left: 10px;
+  margin-bottom: 20px;
   height: 20px;
+  width:300px;
   
 } 
 
@@ -22,10 +24,20 @@ label.required:after{
   color: red
 }
 
+label.required0:after{
+  content: " *";
+  color: red
+}
+
+label.required1:after{
+  content: " *";
+  color: red
+}
 
 
 h2 {
   text-align: center;
+  margin-bottom: 20px;
   
 }
 
